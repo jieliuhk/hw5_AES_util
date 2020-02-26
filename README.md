@@ -1,3 +1,3 @@
 # hw5_AES_util
 
-Encode string use java AES library
+Encode string using java AES library
