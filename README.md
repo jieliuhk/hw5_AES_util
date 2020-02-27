@@ -19,7 +19,7 @@ So the above process become:
 
 `String input` ---> `your main algorithm` ---> `byte[] res` ---> `StringUtil.encodeToString(res)` ---> `String output`
 
-You can do whatever you want to produce the byte array, the only requirement is it must use AES as a subroutine. To use the AES, you can simply call AES.encrypt(). There are two overloads of this function, if you need more, you can implement by yourself refer to my implementation.
+You can do whatever you want to produce the byte array, the only requirement is it must use AES as a subroutine. To use the AES, you can simply call `AES.encrypt()`. There are two overloads of this function, if you need more, you can implement by yourself refer to my implementation.
 
 ## Questions?
 
