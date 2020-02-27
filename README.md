@@ -13,7 +13,7 @@ The output string is a Base64 encoded string represents a 64bits length binary s
 
 ## Detail Implementation
 
-In your hash function, you need to design how to manipulate the input string to output the hash value as a 64 bits length binary. After you get the binary sequence, you can simply use the `StringUtil.encodeToString(yourResult)` in `scr` to produce the final output. 
+In your hash function, you need to design how to manipulate the input string to output the hash value as a 64 bits length binary. After you get the binary sequence, you can simply use the `StringUtil.encodeToString(yourResult)` in `src` to produce the final output. 
 
 So the above process become:
 
