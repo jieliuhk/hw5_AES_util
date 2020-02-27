@@ -6,7 +6,7 @@ import java.util.Base64;
 public class AES {
     private static SecretKeySpec secretKey;
 
-    public static void setKey(String myKey) {
+    private static void setKey(String myKey) {
         byte[] key = myKey.getBytes();
         secretKey = new SecretKeySpec(key, "AES");
     }
